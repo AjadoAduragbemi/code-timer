@@ -29,8 +29,8 @@ Implented in python and can be done in any other language:
 #Summary
 
 - It takes the object time(), and a process (name)
-  - <code> tm = timer()
-  - tm.s_time([process name])   '''process name is optional if s_time would be used just once'''<\code>
+  - <code> tm = timer() <\code>
+  - <code> tm.s_time([process name])   '''process name is optional if s_time would be used just once'''<\code>
 
 - 'process name' and 'start time' are stored in a list and tuple respectively
 
@@ -38,7 +38,7 @@ Implented in python and can be done in any other language:
 
 - The block of code is executed
 
-- Then <code> tm.total_time() </code>
+- Then <code> tm.total_time([pNum]) </code>, this is also called with an optional parameter (the number of proc. name we are trying to get the total of)
 
 
 
