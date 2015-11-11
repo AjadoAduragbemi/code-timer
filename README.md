@@ -30,8 +30,7 @@ Implented in python and can be done in any other language:
 
 - It takes the object time(), and a process (name)
   - <code> tm = timer()
-    tm.s_time([process name])   '''process name is optional if s_time would be used just once'''
-  <\code>
+    tm.s_time([process name]) <\code>  '''process name is optional if s_time would be used just once'''
 
 - 'process name' and 'start time' are stored in a list and tuple respectively
 
