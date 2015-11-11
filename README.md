@@ -17,7 +17,7 @@ end_time = time.time()
 
 '''And then'''
 
-total_time = start_time - end_time '''The same approach I use in every other lang. as well'''<\code>
+total_time = start_time - end_time '''The same approach I use in every other lang. as well'''
 
 The above wouldn't look tiresome until you have check the execution time of different blocks of code.
 
@@ -29,8 +29,8 @@ Implented in python and can be done in any other language:
 #Summary
 
 - It takes the object time(), and a process (name)
-  - <code> tm = timer()
-    tm.s_time([process name]) <\code>  '''process name is optional if s_time would be used just once'''
+  - tm = timer()
+  - tm.s_time([process name])  '''process name is optional if s_time would be used just once'''
 
 - 'process name' and 'start time' are stored in a list and tuple respectively
 
