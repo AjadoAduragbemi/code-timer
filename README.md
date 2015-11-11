@@ -29,12 +29,12 @@ Implented in python and can be done in any other language:
 #Summary
 
 - It takes the object time(), and a process (name)
-  - tm = timer()
+  - <code>tm = timer()<\code>,
   - tm.s_time([process name])  '''process name is optional if s_time would be used just once'''
 
 - 'process name' and 'start time' are stored in a list and tuple respectively
 
-- If <code>tm.s_time()<\code> is called again this time with a process name the step directly above is repeated
+- If <code>tm.s_time()<\code>, is called again this time with a process name the step directly above is repeated
 
 - The block of code is executed
 
@@ -45,5 +45,4 @@ Implented in python and can be done in any other language:
 - This will return output in string format which is thereby printable
 
 #Example
-
 
