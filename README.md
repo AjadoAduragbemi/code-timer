@@ -34,7 +34,7 @@ Implented in python and can be done in any other language:
 
 - 'process name' and 'start time' are stored in a list and tuple respectively
 
-- If tm.s_time() is called again this time with a process name the step directly above is repeated
+- If <code>tm.s_time() is called again this time with a process name the step directly above is repeated
 
 - The block of code is executed
 
