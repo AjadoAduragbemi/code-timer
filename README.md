@@ -29,8 +29,9 @@ Implented in python and can be done in any other language:
 #Summary
 
 - It takes the object time(), and a process (name)
-  - <code> tm = timer() <\code>
-  - <code> tm.s_time([process name])   '''process name is optional if s_time would be used just once'''<\code>
+  <code>- tm = timer()
+  - tm.s_time([process name])   '''process name is optional if s_time would be used just once'''
+  <\code>
 
 - 'process name' and 'start time' are stored in a list and tuple respectively
 
