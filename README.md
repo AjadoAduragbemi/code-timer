@@ -46,11 +46,13 @@ Implented in python and can be done in any other language:
 
 #Example
 
-<code> from timer import timer <\code>
-<code> from timer import timer <\code>
-<code> from timer import timer <\code>
-<code> from timer import timer <\code>
-<code> from timer import timer <\code>
+<code>
+from timer import timer
+from timer import timer
+from timer import timer
+from timer import timer
+from timer import timer
+<\code>
 
 
 
