@@ -34,11 +34,24 @@ Implented in python and can be done in any other language:
 
 - 'process name' and 'start time' are stored in a list and tuple respectively
 
-- If <code>tm.s_time() is called again this time with a process name the step directly above is repeated
+- If <code>tm.s_time()<\code> is called again this time with a process name the step directly above is repeated
 
 - The block of code is executed
 
-- Then <code> tm.total_time([pNum]) </code>, this is also called with an optional parameter (the number of proc. name we are trying to get the total of)
+- Then <code> tm.total_time([pNum], [fmt]) </code>, this is also called with two optional parameter:
+  - The number of 'proc. name' we are trying to get the total of
+  - Option to get a formated output which is already set to True
+
+- This will return output in string format which is thereby printable
+
+#Example
+
+<code> from timer import timer <\code>
+<code> from timer import timer <\code>
+<code> from timer import timer <\code>
+<code> from timer import timer <\code>
+<code> from timer import timer <\code>
+
 
 
 
