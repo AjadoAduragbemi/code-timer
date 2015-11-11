@@ -5,7 +5,7 @@ Sure almost every time I happen to always use the general approach (The only my 
 
 This is the:
 
-import time
+<code> import time
 
 start_time = time.time()
 
@@ -17,9 +17,9 @@ end_time = time.time()
 
 '''And then'''
 
-total_time = start_time - end_time '''The same approach I use in every other lang. as well'''
+total_time = start_time - end_time '''The same approach I use in every other lang. as well'''<\code>
 
-The above code wouldn't look tiresome until you have check the execution time of different blocks of code.
+The above wouldn't look tiresome until you have check the execution time of different blocks of code.
 
 So what if there was a better way to do this, well thing is I didn't try checking,
 I think I've seen someone use a better approach with matlab, but then I decided to write something I could call my own, though not perfect but yea it kindof feels better (maybe because it came from me).
@@ -30,7 +30,8 @@ Implented in python and can be done in any other language:
 
 - It takes the object time(), and a process (name)
    <code> tm = timer()
-   tm.s_time([process name]) '''process name is optional if s_time would be used just once'''<\code>
+   tm.s_time([process name])
+   '''process name is optional if s_time would be used just once'''<\code>
 
 - 'process name' and 'start time' are stored in a list and tuple respectively
 
